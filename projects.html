@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="website portfolio">
+  <meta name="keywords" content="portfolio Aleksandr Popov">
+  <meta name="author" content="Aleksandr Popov">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="./" class="logo">Portfolio</a>
+    <nav class="navbar">
+      <ul class="navbar__list">
+        <li class="navbar__item"><a href="./index.html" style="--i:1;" class="navbar__link">Home</a></li>
+        <li class="navbar__item"><a href="./skills.html" style="--i:2;" class="navbar__link">Skills</a></li>
+        <li class="navbar__item"><a href="#" style="--i:3;" class="navbar__link active">Projects</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- Main -->
+  <main>
+    <section class="projects">
+      <ul class="projects__list">
+        <li class="projects__items" style="--i:5;">
+          <a href="https://quietinst.github.io/html-css/module-06/" target="_blank" class="projects__link">
+            <article class="project-card">
+              <div class="project-card__image-wrap">
+                <div class="project-card__overlay">
+                  <p class="project-card__overlay-text">A responsive business landing page. <br>
+                    Role: developer. BEM methodology, semantic HTML, CSS variables.</p>
+                </div>
+                <img class="project-card__image" src="images/projects/web_studio.jpg" width="370" height="295"
+                  alt="image website" srcset="images/projects/web_studio@2x.jpg 2x">
+              </div>
+              <div class="project-card__cont">
+                <h3 class="project-card__title">Web studio</h3>
+                <p class="project-card__description">Html Css JS</p>
+              </div>
+            </article>
+          </a>
+        </li>
+        <li class="projects__items" style="--i:6;">
+          <a href="https://aleksp7486.github.io/goit-js-hw-11/" target="_blank" class="projects__link">
+            <article class="project-card">
+              <div class="project-card__image-wrap">
+                <div class="project-card__overlay">
+                  <p class="project-card__overlay-text">
+                    Image Search Application. <br> Role: developer. Vanilla javascript, rest api, ajax. Deploy project
+                    on
+                    Github.
+                  </p>
+                </div>
+                <img class="project-card__image" width="370" height="295" src="images/projects/image_gallery.jpg"
+                  alt="image website" srcset="images/projects/image_gallery@2x.jpg 2x">
+              </div>
+              <div class="project-card__cont">
+                <h3 class="project-card__title">
+                  Image gallery
+                </h3>
+                <p class="project-card__description">JS Rest api Ajax</p>
+              </div>
+            </article>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+
+</html>

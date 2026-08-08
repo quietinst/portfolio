@@ -1,0 +1,28 @@
+.skills {
+  padding: 120px 10% 0;
+}
+
+.skills h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+
+  @media (min-width: 601px) {
+    font-size: 32px;
+  }
+}
+
+.skills__list {
+  list-style: none;
+}
+
+.skills__item {
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: calc($navbar-link-delay * var(--i));
+}
+
+.skills__text {
+  font-size: 16px;
+  font-weight: 500;
+}

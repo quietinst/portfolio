@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="website portfolio">
+  <meta name="keywords" content="portfolio Aleksandr Popov">
+  <meta name="author" content="Aleksandr Popov">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <nav class="navbar">
+      <ul class="navbar__list">
+        <li class="navbar__item"><a href="#" style="--i:1;" class="navbar__link active">Home</a></li>
+        <li class="navbar__item"><a href="./skills.html" style="--i:2;" class="navbar__link">Skills</a></li>
+        <li class="navbar__item"><a href="./projects.html" style="--i:3;" class="navbar__link">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home section -->
+  <section class="home">
+    <div class="home-image">
+      <picture>
+        <source srcset="images/photo/photo.webp 1x,
+        images/photo/photo@2x.webp 2x, images/photo/photo@2x.jpg 2x" type="image/webp">
+        <img src="images/photo/photo.jpg" alt="Aleksandr Popov" width="512" height="512"
+          srcset="images/photo/photo@2x.jpg 2x">
+      </picture>
+    </div>
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Aleksandr Popov</h1>
+      <h3>And I'm a <span id="multiple-text"></span></h3>
+      <p>I am committed to delivering high-quality work, meeting
+        project deadlines, and creating intuitive interfaces that enhance the user experience.</p>
+      <!-- Social -->
+      <div class="social">
+        <ul class="social__list">
+          <li class="social__item"><a href="https://www.facebook.com/share/1Ctp5vg9ng/?mibextid=wwXIfr" target="_blank"
+              style="--i:5;" class="social__link"><i class='bx bxl-facebook'></i></a></li>
+          <li class="social__item"><a href="https://t.me/quietinst" target="_blank" style="--i:6;"
+              class="social__link"><i class='bx bxl-telegram'></i></a>
+          </li>
+          <li class="social__item"><a href="https://github.com/quietinst" target="_blank" style="--i:7;"
+              class="social__link"><i class='bx bxl-github'></i></a>
+          </li>
+        </ul>
+      </div>
+      <a href="./assets/popov_a_7486.docx" class="btn" download>Download CV</a>
+    </div>
+
+
+  </section>
+
+  <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>

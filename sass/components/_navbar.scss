@@ -1,0 +1,33 @@
+.navbar {
+  @media (max-width: 600px) {
+    margin-left: auto;
+  }
+}
+
+.navbar__list {
+  display: flex;
+  list-style: none;
+}
+
+.navbar__item {
+  &:not(:last-child) {
+    margin-right: 35px;
+  }
+}
+
+.navbar__link {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  color: $white-color;
+  text-decoration: none;
+  transition: 0.3s;
+  opacity: 0;
+  animation: slideTop 0.5s ease forwards;
+  animation-delay: calc(#{$navbar-link-delay} * var(--i));
+
+  &:hover,
+  &.active {
+    color: $accent-color;
+  }
+}
