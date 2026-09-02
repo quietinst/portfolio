@@ -17,6 +17,12 @@ img {
   height: auto;
 }
 
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #0ef;
+  outline-offset: 4px;
+}
+
 @-webkit-keyframes slideRight {
   0% {
     -webkit-transform: translateX(-100px);
@@ -434,6 +440,26 @@ img {
   padding: 120px 10% 0;
 }
 
+.projects__title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  opacity: 0;
+  -webkit-animation: slideRight 1s ease forwards;
+          animation: slideRight 1s ease forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.projects__title span {
+  color: #0ef;
+}
+@media (min-width: 601px) {
+  .projects__title {
+    font-size: 40px;
+  }
+}
+
 .projects h2 {
   font-size: 20px;
   font-weight: 600;
@@ -556,6 +582,26 @@ img {
 
 .skills {
   padding: 120px 10% 0;
+}
+
+.skills__title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  opacity: 0;
+  -webkit-animation: slideRight 1s ease forwards;
+          animation: slideRight 1s ease forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+.skills__title span {
+  color: #0ef;
+}
+@media (min-width: 601px) {
+  .skills__title {
+    font-size: 40px;
+  }
 }
 
 .skills h2 {

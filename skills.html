@@ -1,79 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="website portfolio" />
+    <meta name="keywords" content="portfolio Aleksandr Popov" />
+    <meta name="author" content="Aleksandr Popov" />
+    <title>Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="website portfolio">
-  <meta name="keywords" content="portfolio Aleksandr Popov">
-  <meta name="author" content="Aleksandr Popov">
-  <title>Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="./css/main.min.css">
-</head>
-
-<body>
-  <header class="header">
-    <a href="./" class="logo">Portfolio</a>
-    <nav class="navbar">
-      <ul class="navbar__list">
-        <li class="navbar__item"><a href="./index.html" style="--i:1;" class="navbar__link">Home</a></li>
-        <li class="navbar__item"><a href="#" style="--i:2;" class="navbar__link active">Skills</a></li>
-        <li class="navbar__item"><a href="./projects.html" style="--i:3;" class="navbar__link">Projects</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <!-- Maine -->
-  <main>
-    <!-- skills -->
-    <section class="skills">
-      <ul class="skills__list">
-        <li class="skills__item" style="--i:5;">
-          <p class="skills__text">HTML5</p>
-        </li>
-        <li class="skills__item" style="--i:6;">
-          <p class="skills__text">CSS3</p>
-        </li>
-        <li class="skills__item" style="--i:7;">
-          <p class="skills__text">Sass</p>
-        </li>
-        <li class="skills__item" style="--i:8;">
-          <p class="skills__text">JavaScript</p>
-        </li>
-        <li class="skills__item" style="--i:9;">
-          <p class="skills__text">TypeScript</p>
-        </li>
-        <li class="skills__item" style="--i:10;">
-          <p class="skills__text">React</p>
-        </li>
-        <li class="skills__item" style="--i:11;">
-          <p class="skills__text">Redux</p>
-        </li>
-        <li class="skills__item" style="--i:12;">
-          <p class="skills__text">REST API</p>
-        </li>
-        <li class="skills__item" style="--i:13;">
-          <p class="skills__text">Webpack</p>
-        </li>
-        <li class="skills__item" style="--i:14;">
-          <p class="skills__text">Node.js</p>
-        </li>
-        <li class="skills__item" style="--i:15;">
-          <p class="skills__text">MongoDB</p>
-        </li>
-        <li class="skills__item" style="--i:16;">
-          <p class="skills__text">MySQL</p>
-        </li>
-        <li class="skills__item" style="--i:17;">
-          <p class="skills__text">Git</p>
-        </li>
-      </ul>
-    </section>
-  </main>
-
-</body>
-
+  <body>
+    <header class="header">
+      <a href="./" class="logo">Portfolio</a>
+      <nav class="navbar">
+        <ul class="navbar__list">
+          <li class="navbar__item">
+            <a href="./index.html" style="--i: 1" class="navbar__link">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#" style="--i: 2" class="navbar__link active">Skills</a>
+          </li>
+          <li class="navbar__item">
+            <a href="./projects.html" style="--i: 3" class="navbar__link"
+              >Projects</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Maine -->
+    <main>
+      <!-- skills -->
+      <section class="skills">
+        <h1 class="skills__title">My <span>Skills</span></h1>
+        <ul class="skills__list">
+          <li class="skills__item" style="--i: 5">
+            <p class="skills__text">HTML5</p>
+          </li>
+          <li class="skills__item" style="--i: 6">
+            <p class="skills__text">CSS3</p>
+          </li>
+          <li class="skills__item" style="--i: 7">
+            <p class="skills__text">Sass</p>
+          </li>
+          <li class="skills__item" style="--i: 8">
+            <p class="skills__text">JavaScript</p>
+          </li>
+          <li class="skills__item" style="--i: 9">
+            <p class="skills__text">TypeScript</p>
+          </li>
+          <li class="skills__item" style="--i: 10">
+            <p class="skills__text">React</p>
+          </li>
+          <li class="skills__item" style="--i: 11">
+            <p class="skills__text">Redux</p>
+          </li>
+          <li class="skills__item" style="--i: 12">
+            <p class="skills__text">REST API</p>
+          </li>
+          <li class="skills__item" style="--i: 13">
+            <p class="skills__text">Webpack</p>
+          </li>
+          <li class="skills__item" style="--i: 14">
+            <p class="skills__text">Node.js</p>
+          </li>
+          <li class="skills__item" style="--i: 15">
+            <p class="skills__text">MongoDB</p>
+          </li>
+          <li class="skills__item" style="--i: 16">
+            <p class="skills__text">MySQL</p>
+          </li>
+          <li class="skills__item" style="--i: 17">
+            <p class="skills__text">Git</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
