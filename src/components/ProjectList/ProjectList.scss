@@ -1,0 +1,11 @@
+.projects__list {
+  list-style: none;
+  @media (min-width: 601px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  @media (min-width: 1201px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
