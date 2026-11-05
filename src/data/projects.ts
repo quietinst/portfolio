@@ -1,7 +1,11 @@
-import imageGallery from '../assets/projects/image_gallery.jpg';
+import {
+  default as imageGallery,
+  default as noteHub,
+} from '../assets/projects/image_gallery.jpg';
 import imageGallery2x from '../assets/projects/image_gallery@2x.jpg';
 import movieSearch from '../assets/projects/movie_search.jpg';
 import movieSearch2x from '../assets/projects/movie_search@2x.jpg';
+import noteHub2x from '../assets/projects/note_hub@2x.jpg';
 import webStudio from '../assets/projects/web_studio.jpg';
 import webStudio2x from '../assets/projects/web_studio@2x.jpg';
 import type { Project } from '../types/project';
@@ -47,6 +51,20 @@ export const projects: Project[] = [
       src: movieSearch,
       src2x: movieSearch2x,
       alt: 'Movie search project preview',
+    },
+  },
+  {
+    id: 'note-hub',
+    title: 'Note Hub',
+    stack: 'React TypeScript',
+    summary: 'Notes Management Application.',
+    details:
+      'Role: developer. React, TypeScript, TanStack Query, Formik, Yup, Axios, CSS Modules.',
+    url: 'https://react-nextjs-05-notehub.vercel.app',
+    image: {
+      src: noteHub,
+      src2x: noteHub2x,
+      alt: 'NoteHub project preview',
     },
   },
 ];

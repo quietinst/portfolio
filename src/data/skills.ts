@@ -6,6 +6,7 @@ export const skills: string[] = [
   'TypeScript',
   'React',
   'Redux',
+  'Next.js',
   'REST API',
   'Git',
 ];
